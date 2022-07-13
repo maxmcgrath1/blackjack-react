@@ -1,5 +1,5 @@
 
-function Deck() {
+const Deck = () => {
     let ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
     let suits = ['♣', '♦', '♠', '♥']
     
@@ -20,7 +20,7 @@ function Deck() {
     };
     
     let deck = [];
-    
+
     for (let i = 0; i < ranks.length; i++) {
         for (let j = 0; j < suits.length; j++) {
             let cards = {
@@ -31,6 +31,9 @@ function Deck() {
             deck.push(cards)
         }
     }
+    return (
+        <div> My deck of cards</div>
+    )
 }
 
 Deck();
