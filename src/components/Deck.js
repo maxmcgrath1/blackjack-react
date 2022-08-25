@@ -32,7 +32,7 @@ const Deck = () => {
         }
     }
     return (
-        <div>My deck of cards</div>
+        <div>deck</div>
     )
 }
 
