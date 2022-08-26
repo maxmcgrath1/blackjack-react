@@ -32,7 +32,7 @@ const Deck = () => {
         }
     }
     return (
-        <div>deck</div>
+        <div>{deck}</div>
     )
 }
 
