@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
     return (
-        <div>Single card goes here</div>
+        <div>Single card</div>
     )
 }
 
